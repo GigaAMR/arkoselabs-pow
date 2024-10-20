@@ -26,7 +26,7 @@ def create_pow():
     iB = iz / iV
     return {
                                                     'cs_': iL, #9 len
-                                                    'ct_': iV, #random shit
+                                                    'ct_': iV, #random shit will work too, attempt count
                                                     'g_': uwu, # 11 len
                                                     'h_': im, # sha-256
                                                     'pt_': iz,
