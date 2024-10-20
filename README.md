@@ -1,9 +1,9 @@
-cs_ generation: Math['random']()['toString'](36)['substr'](2, 9)
+cs_ generation: ```Math['random']()['toString'](36)['substr'](2, 9)```
 
 ![thHLDF](https://github.com/user-attachments/assets/4a643466-7198-413e-a0d1-2585f0eaea99)
 
 
-g_ generation: Math['random']()['toString'](36)['substr'](2, 15)
+g_ generation: ```Math['random']()['toString'](36)['substr'](2, 15)```
 
 ![tO1aPt](https://github.com/user-attachments/assets/3bafd909-749f-403c-be11-f688170400c2)
 
