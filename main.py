@@ -9,18 +9,21 @@ def generate_value(long):
 
 
 def create_pow():
-    iL = generate_value(9)
-    uwu = generate_value(11)
-    iw = iL + uwu
-    im = sha256(iw.encode('utf-8')).hexdigest()
+    iV = 0
+    while True:
+        iL = generate_value(9)
+        uwu = generate_value(11)
+        iw = iL + uwu
+        im = sha256(iw.encode('utf-8')).hexdigest()
 
-    iS = random.randint(100, 999) # performance.now()
-    ia = random.randint(iS, 1500) # performance.now()
+        iS = random.randint(100, 999) # performance.now()
+        ia = random.randint(iS, 1500) # performance.now()
 
-    iV = random.randint(120, 200)
-    iz = (ia - iS) / 1000  # 0x3e8 is 1000 in decimal
+        iz = (ia - iS) / 1000  # 0x3e8 is 1000 in decimal
+        iV += 1
+        if im[:2] == '00':
+            break
     iB = iz / iV
-
     return {
                                                     'cs_': iL, #9 len
                                                     'ct_': iV, #random shit
